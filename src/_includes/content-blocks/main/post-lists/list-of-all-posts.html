@@ -14,16 +14,16 @@
       <hr class="uk-divider-small uk-text-center" />
       <p class="post-meta">
           <i>by</i>
-          {% if page.authors %}
-        {% for author in post.authors %}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }}</span></span>
-        {% if forloop.last == false %}
-        and
-        {% endif %}
-        {% endfor %}
-        {% else %}
-        Staff
-        {% endif %}
+          {% if post.authors %}
+          {% for author in post.authors %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }}</span></span>
+          {% if forloop.last == false %}
+          and
+          {% endif %}
+          {% endfor %}
+          {% else %}
+          Staff
+          {% endif %}
         <i>on</i> <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
         </p>
       <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}</p>
