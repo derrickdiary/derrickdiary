@@ -1,10 +1,12 @@
 ---
-title: "​MHS introduces\_Oiler Crew"
+title: "​MHS introduces Oiler Crew"
 date: 2018-09-26T18:28:17.958Z
 featured-image:
   - 'https://ucarecdn.com/bb6318e7-76c7-4297-b245-275ec8ad3dea~1/nth/0/'
 authors:
   - Janely Aragon
+tags:
+  - club
 ---
 There is a new program at Montebello High School, Oiler Crew, that is designed to benefit freshmen. This program is new to MHS and Ms. Rego was happy to provide more information about it. She showed enthusiasm for the students who are part of the Oiler Crew and with the contribution and support of other teachers, this program will reach its full potential and make a great impact on the MHS campus.
 
