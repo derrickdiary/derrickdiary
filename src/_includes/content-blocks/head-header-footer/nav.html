@@ -3,7 +3,7 @@
     <div class="uk-grid uk-grid-small">
       <div class="uk-width-1-6@l uk-width-1-5@m uk-visible@m uk-text-right">
         <div class="uk-navbar-item logo-wrap">
-          <a class="nav-logo" href="/">
+          <a class="nav-logo"href="{{ site.url }}">
             Derrick Diary
           </a>
         </div>
@@ -34,8 +34,8 @@
                 <a href="/search/"><i class="fas fa-search fa-xs"></i></a>
               </li>
             </ul>
-            <a class="uk-hidden@m" href="{{ site.url }}">
-              <img class="nav-logo-mini" src="{{ site.company.logo }}" alt="{{ site.company.logo-alt-text }}" />
+            <a class="nav-logo-mini uk-hidden@m" href="{{ site.url }}">
+                Derrick Diary
             </a>
           </div>
           {% include content-blocks/head-header-footer/mobile-nav.html %}

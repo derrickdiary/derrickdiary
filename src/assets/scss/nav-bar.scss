@@ -2,7 +2,7 @@
   // font-family: $sans-serif;
   // font-weight: $bold-weight;
   text-transform: none;
-  color: $yellow;
+  color: $dark-blue;
   font-family: $condensed-sans-serif;
   font-weight: $condensed-weight;
 }
@@ -17,7 +17,7 @@
 }
 
 .nav-wrap, .nav {
-    background: $dark-blue;
+    background: $white;
 }
 
 
@@ -27,7 +27,7 @@
 
 .uk-navbar-item, .uk-navbar-nav>li>a {
   &:hover {
-    color: $light-yellow;
+    color: $light-dark-blue;
   }
 }
 
@@ -36,9 +36,9 @@
   text-transform: uppercase;
 }
 
-
+//
 .nav-logo:hover {
-    color: $light-yellow;
+    color: $light-dark-blue;
 }
 
 .logo-wrap {
@@ -48,16 +48,16 @@
 .uk-navbar .uk-icon {
   position: relative;
   top: 3px;
-  color: $yellow;
+  // color: $dark-blue;
 }
 
-.uk-navbar .uk-button {
-  border: 1px solid $yellow;
-}
+// .uk-navbar .uk-button {
+//   border: 1px solid $dark-blue;
+// }
 
-.uk-navbar .uk-subnav-divider>:nth-child(n+2):not(.uk-first-column)::before {
-  border-left: 1px solid $yellow;
-}
+// .uk-navbar .uk-subnav-divider>:nth-child(n+2):not(.uk-first-column)::before {
+//   border-left: 1px solid $dark-blue;
+// }
 
 .call {
   font-family: $sans-serif;
@@ -73,16 +73,40 @@
 .nav-logo, .nav-logo-mini {
   font-family: $condensed-sans-serif;
   text-transform: uppercase;
-  color: $black;
+  color: $dark-blue;
+
 }
+
+.nav-logo-mini {
+  font-weight: 500;
+  font-size: 2.2em;
+}
+
+@media screen and (min-width: 906px) and (max-width: 960px) {
+  .nav-logo-mini {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .nav-logo-mini {
+    font-size: 1.8em;
+  }
+}
+
 .nav-logo {
   // font-size: .8em;
   position: relative;
-  color: $yellow;
+  color: $dark-blue;
   font-size: 1.3em;
-font-weight: 500;
+  font-weight: 500;
   // left: 18px;
   // padding-bottom: 2px;
+}
+@media screen and (min-width: 950px) and (max-width: 1250px) {
+  .nav-logo {
+    font-size: 1em;
+  }
 }
 
 .nav-wrap.uk-sticky-fixed {
@@ -165,11 +189,11 @@ font-weight: 500;
 .uk-navbar-item, .uk-navbar-dropdown-nav {
   font-family: $sans-serif;
   font-size: 1em;
-  color: $yellow;
+  color: $dark-blue;
 }
 
 .uk-navbar-dropdown-nav>li>a {
-  color: $yellow;
+  color: $dark-blue;
 }
 .fa-angle-down {
   left: -3px;

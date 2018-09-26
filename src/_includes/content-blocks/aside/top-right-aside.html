@@ -4,7 +4,7 @@
   <div style="z-index:1;" uk-sticky="offset: 150;bottom: true; media:640; show-on-up: true; animation: uk-animation-slide-top;">
     <h1 class="visuallyhidden">Top Aside</h1>
     <div>
-      {% if page.is-post or page.pagination.category %}
+      {% if page.is-post or page.auto-page or page.pagination.category %}
       {% include content-blocks/aside/content/cat-and-tags/list-of-categories.html %}
       {% endif %}
       {% include content-blocks/aside/content/down-arrow.html %}
