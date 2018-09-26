@@ -23,7 +23,8 @@ Set in <a href="https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a> and <
 <br><br>
 Website content by Montebello High School Newspaper Staff<br> Copyright © {{ 'now' | date: "%Y" }}&ensp;All rights reserved.<br><br>
 Web design and development by <a href="https://telemann.ink/">C.B. Telemann.</a>
+<br><br>
 Built with :heart: with <a href="https://jekyllrb.com/">Jekyll</a>,
-<a href="https://cloudinary.com/">Cloudinary</a>,  
+<a href="https://uploadcare.com/">UploadCare</a>,  
 <a href="https://getuikit.com/">UIKit</a>, and <a href="https://www.netlify.com/">Netlify</a>.
 <p>
