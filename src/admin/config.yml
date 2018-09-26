@@ -6,7 +6,7 @@ media_library:
   name: uploadcare
   config:
     publicKey: f445c35ed91bf3a391ee
-    imageShrink: '600x400 95%'
+    imageShrink: '575x375 100%'
 
 display_url: https://derrickdiary.netlify.com
 
@@ -102,15 +102,19 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
-      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: true, required: false}
-      - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
-      - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
-      - {label: "Featured Image", name: "image", widget: "string", required: false}
-      - {label: "Featured Image Alt Text", name: "image-alt", widget: "string", required: false}
-      - {label: "Share Image (resize for Facebook/Twitter Cards)", name: "share-image", widget: "string", required: false}
+      - label: "Featured Image"
+        name: "featured-image"
+        widget: "image"
+        options:
+          media_library:
+            config:
+              publicKey: f445c35ed91bf3a391ee
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
+      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: true, required: false}
+      - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
+      - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - label: "Opinions"
