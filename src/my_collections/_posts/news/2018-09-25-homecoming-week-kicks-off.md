@@ -1,9 +1,9 @@
 ---
 title: 2018 Homecoming Week kicks off!
 date: 2018-09-26T15:28:29.030Z
+featured-image: 'https://ucarecdn.com/5b218195-ea78-41be-a952-ec1f5a1f0eaf/'
+share: false
 ---
-![test](https://ucarecdn.com/c9e8bc13-b7ea-4eed-bbcd-919e8852b7bc/-/crop/373x367/133,0/-/preview/)
-
 On your marks, get set, go—it is homecoming time! From Monday, September 24th to Friday, September 28th, MHS Oilers will be encouraged to show their school pride by dressing in the daily themed wear, attend the lunch rallies, and more!
 
 The daily “themed” clothing is the following: on Monday, September 24th, Oilers are asked to wear the best and comfortable beach attire, such as palm tree, floral, or pastel shirts, board shorts, etc.; Tuesday is the crowd favorite Twin Day, so be sure to coordinate a matching outfit with your bestie; Wednesday is a new theme (and an exciting one), Bohemian or Hippie day; Thursday is the traditional Toga Day for seniors (or yellow for underclassmen); and, Friday is Oiler Gear day. This year’s Homecoming theme is “We Got the Beat,” which is a tribute to a popular 80’s song by the Go Go’s. In case anyone is wondering how the dress themes were created, well, each day’s dress wear is inspired by a certain song. For example, Monday’s beach wear is inspired by “Surfin’ USA,” Tuesday by “You’ve Got a Friend,” Wednesday by “Bohemian Rhapsody,” Thursday by both “Come Together” and “Yellow Submarine,” and Friday by “We Are the Champions.”
