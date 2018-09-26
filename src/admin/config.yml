@@ -75,7 +75,7 @@ collections:
               publicKey: f445c35ed91bf3a391ee
       - {label: "Authors", name: authors, widget: "list", default: [""], required: true}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
+      - {label: "Categories", name: categories, widget: "hidden", default: ["features"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
@@ -99,7 +99,7 @@ collections:
               publicKey: f445c35ed91bf3a391ee
       - {label: "Authors", name: authors, widget: "list", default: [""], required: true}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
+      - {label: "Categories", name: categories, widget: "hidden", default: ["art-and-literature"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
@@ -123,7 +123,7 @@ collections:
               publicKey: f445c35ed91bf3a391ee
       - {label: "Authors", name: authors, widget: "list", default: [""], required: true}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
+      - {label: "Categories", name: categories, widget: "hidden", default: ["sports"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
@@ -147,7 +147,7 @@ collections:
               publicKey: f445c35ed91bf3a391ee
       - {label: "Authors", name: authors, widget: "list", default: [""], required: true}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
+      - {label: "Categories", name: categories, widget: "hidden", default: ["opinions"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}

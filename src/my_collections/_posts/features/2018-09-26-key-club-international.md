@@ -4,8 +4,6 @@ title: Key Club International
 date: 2018-09-26T07:00:00.000Z
 authors:
   - ''
-categories:
-  - news
 tags:
   - club
 ---
