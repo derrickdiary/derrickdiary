@@ -18,27 +18,13 @@ layout: default
     <hr class="uk-divider-small uk-text-center" />
     <p class="post-meta uk-margin-remove">
       <i>by</i>
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        {% if page.author %}
-        {{ page.author }}
-        {% else %}
-        {{ site.author.name }}
+        {% for author in post.authors %}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }}</span></span>
+        {% if forloop.last == false %}
+        and
         {% endif %}
-        </span>
-      </span>
-      {% if page.translator %}
-      <br />
-      <span><i>translated by</i>
-      {{ page.translator | widont }}</span>
-      {% endif %}
-      {% if page.author %}
-      <br /><i>posted by</i>
-      {{ site.author.name | widont }}
+        {% endfor %}
       <i>on</i>
-      {% else %}
-      <i>on</i>
-      {% endif %}
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" | widont }}</time>
     </p>
     <p class="uk-text-center italic">
