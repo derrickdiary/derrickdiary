@@ -5,7 +5,7 @@ backend:
 media_library:
   name: uploadcare
   config:
-    publickey: f445c35ed91bf3a391ee
+    publicKey: f445c35ed91bf3a391ee
 
 display_url: https://derrickdiary.netlify.com
 
