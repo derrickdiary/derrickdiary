@@ -1,5 +1,8 @@
 ---
-title: ​Welcome Back, Oilers!
+title: '​Welcome Back, Oilers!'
+date: 2018-09-26T18:31:08.062Z
+featured-image:
+  - 'https://ucarecdn.com/6143384c-d28d-41a8-8cb9-c0fcd55f8d67~1/nth/0/'
 authors:
   - Staff Editorial
 ---
