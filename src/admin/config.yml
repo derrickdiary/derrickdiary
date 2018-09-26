@@ -9,6 +9,7 @@ media_library:
   config:
     publicKey: f445c35ed91bf3a391ee
     imageShrink: '575x375 100%'
+    multiple: true
 
 display_url: https://derrickdiary.netlify.com
 

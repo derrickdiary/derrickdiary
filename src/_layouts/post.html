@@ -18,7 +18,7 @@ layout: default
     <hr class="uk-divider-small uk-text-center" />
     <p class="post-meta uk-margin-remove">
       <i>by</i>
-        {% for author in post.authors %}
+        {% for author in page.authors %}
         <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }}</span></span>
         {% if forloop.last == false %}
         and
