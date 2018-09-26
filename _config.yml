@@ -167,12 +167,12 @@ defaults:
     values:
       layout: default
       comments: false
-      comment-locked: true
+      comment-locked: false
       left-aside: true
       right-aside-top: true
       right-aside-bottom: true
       bottom-cta: true
-      pin-it: true
+      pin-it: false
       download: false
       download-file:
       lead-id:
