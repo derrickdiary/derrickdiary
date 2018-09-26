@@ -1,0 +1,28 @@
+::-moz-selection {
+  background: $highlight;
+  color: $black;
+}
+
+::selection {
+  background: $highlight;
+  color: $black;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  overflow: hidden;
+  background: $background-color;
+  position: relative;
+}
+
+.wrap, .site, main {
+  position: relative;
+}
+
+.uk-divider-small {
+  margin: 1.25em 0;
+  color: $grey;
+}

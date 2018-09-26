@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+          {% include content-blocks/main/page-title.html %}
+  <div id="barba-wrapper">
+    <div class="barba-container">
+      <div class="wrap">
+        <a id="top"></a>
+        {% include content-blocks/head-header-footer/nav.html %}
+        <div id="main" class="uk-container site">
+            <div class="uk-child-width-expand@s uk-flex site-content uk-grid-collapse" uk-grid>
+            <div>
+              <div class="uk-grid-large" uk-grid>
+                {% include content-blocks/main/main.html %}
+                {% include content-blocks/aside/top-right-aside.html %}
+                {% include content-blocks/cta/cta.html %}
+                {% include content-blocks/aside/bottom-right-aside.html %}
+              </div>
+            </div>
+            {% include content-blocks/aside/left-aside.html %}
+
+          </div>
+          {% include footer.html %}
+          {% include content-blocks/head-header-footer/footer-scripts.html %}
+
+          <!-- JS -->
+          <!-- inject:js -->
+          <!-- endinject -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

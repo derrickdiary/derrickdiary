@@ -1,0 +1,199 @@
+html {
+  font-size: 1em;
+  background-color: $white;
+}
+
+body {
+  font-weight: $text-weight;
+  font-family: $serif;
+  color: $black;
+  font-size: $font-size;
+  line-height: 1.45;
+}
+@media all and (max-width: 640px) and (min-width: 320px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+.signature{
+    width: 241px;
+    height: 30px;
+}
+.signature img {
+  width: inherit;
+margin: 0;
+position: relative;
+left: -13px;
+}
+.indent {
+  text-indent: -9px;
+}
+
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+h1,
+h2,
+h3,
+h4,
+{
+  font-family: $sans-serif;
+  // letter-spacing: 0.07em;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+.uk-h1,
+.uk-h2,
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+.uk-h1,
+.uk-h2,
+.uk-h3,
+h1,
+h2,
+h3 {
+  font-weight: $bold-weight;
+}
+
+.uk-h4,
+h4 {
+  // letter-spacing: 0.07em;
+  // font-weight: 400;
+  font-weight: $bold-weight;
+  font-size: .9em;
+}
+
+
+
+.light {
+  color: #999;
+}
+
+
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+h1,
+h2,
+h3,
+h4 {
+  // margin: 1.414em 0 0;
+  line-height: 1.2;
+}
+
+.uk-h1,
+h1 {
+  margin-top: 0;
+  margin-bottom: .2em;
+  font-size: 2.25em;
+  line-height: .9em;
+  color: $primary;
+  //letter-spacing: 0.03em;
+}
+
+.uk-h2,
+h2 {
+  font-size: 1.414em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+main section h1:first-of-type,
+main section h2:first-of-type,
+main section h3:first-of-type,
+main section h4:first-of-type,
+ {
+  margin-top: 0;
+  text-align: center;
+}
+
+
+.uk-comment-body > h1, .uk-comment-body > .uk-h1,
+.uk-comment-body > h2, .uk-comment-body > .uk-h2,
+.uk-comment-body > h3, .uk-comment-body > .uk-h3,
+.uk-comment-body > h4, .uk-comment-body > .uk-h4 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 1.414em;
+}
+
+.small,
+small {
+  font-size: 0.85em;
+  line-height: 1.4em;
+}
+
+.italic {
+  font-style: italic;
+  font-family: $serif;
+  font-weight: 400;
+}
+
+em {
+  color: $black;
+}
+
+u {
+  text-decoration: none;
+  color: $black;
+  background: -webkit-linear-gradient($white, $white), -webkit-linear-gradient($white, $white), -webkit-linear-gradient($black, $black);
+  background: linear-gradient($white, $white), linear-gradient($white, $white), linear-gradient($black, $black);
+  -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  text-shadow: 0.03em 0 $white, -0.03em 0 $white, 0 0.03em $white, 0 -0.03em $white, 0.06em 0 $white, -0.06em 0 $white, 0.09em 0 $white, -0.09em 0 $white, 0.12em 0 $white, -0.12em 0 $white, 0.15em 0 $white, -0.15em 0 $white;
+  background-position: 0 93%, 100% 93%, 0 93%;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  u {
+    background-position-y: 87%, 87%, 90%;
+  }
+}
+
+u:selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
+}
+
+u::-moz-selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
+}
+
+.sans-serif {
+  font-family: $sans-serif;
+}
+
+.grey {
+  color: $grey;
+}
+
+.post-content .default p:first-child:first-letter {
+  color: #333;
+  float: left;
+  font-family: $sans-serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+
+.uk-dropcap::first-letter, .uk-dropcap>p:first-of-type::first-letter {
+  display: block;
+  margin-right: 5px;
+  float: left;
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: -15px;
+}

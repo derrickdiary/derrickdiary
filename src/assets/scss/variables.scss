@@ -1,0 +1,27 @@
+$black:       #111111;
+$white:       #fffff8;
+$highlight: #FCF3CF;
+$primary:    $black;
+$primary-hover: $black;
+//$primary-hover: shade($primary, 40%);
+$grey: #999;
+$red: red;
+$blue: #1956a5;
+$light-blue: #81D4FA;
+$light-grey: gainsboro;
+$boxshadow: 7px 7px 165px -79px rgba(0,0,0,0.75);
+$defaultborder: 1px solid gainsboro;
+$background-color: $white;
+
+$text-weight: 400;
+$bold-weight: 600;
+$condensed-weight: 500;
+$font-size: 20px;
+
+$serif: 'Fira Sans', sans-serif;
+$sans-serif: 'Fira Sans', sans-serif;
+$condensed-sans-serif: 'Fira Sans Extra Condensed', sans-serif;
+
+// $serif: 'Karla', sans-serif;
+// $sans-serif: 'Karla', sans-serif;
+// $condensed-sans-serif: 'Karla', sans-serif;

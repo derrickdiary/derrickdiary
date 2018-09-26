@@ -1,0 +1,31 @@
+img {
+  border-radius: 3px;
+}
+
+.portrait {
+  width: 250px;
+  margin-bottom: 3em;
+}
+
+figure {
+  margin: 0;
+}
+
+@mixin fade-it($img, $shadow: #536) {
+  background: url('#{$img}'), $shadow;
+  background-blend-mode: lighten;
+}
+
+.apply-base {
+  @include fade-it('1.jpg');
+}
+
+.apply-unique-shade {
+  @include fade-it('2.jpg',
+                   #293e78);
+}
+
+.featured-image {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+comments:
+  allowedFields:   ['name', 'email', 'message', 'slug', 'replying_to']
+  branch:          "master"
+  commitMessage:   "New comment."
+  filename:        "{@date:YYYY-MM-DD}-comment-for-{fields.slug}-from-{fields.name}"
+  format:          "frontmatter"
+  path:            "src/my_collections/_comments"
+  moderation:      false
+  slug:            "{fields.slug}"
+  requiredFields:  ['name', 'email', 'message']
+  transforms:
+    email:         "md5"
+    message:       "frontmatterContent"
+  generatedFields:
+    date:
+      type:        "date"
+      options:
+        format:    "iso8601"
+    approved:      false
+    title:
+      type:        "date"
+      options:
+        format:    "iso8601"
+  reCaptcha:
+    enabled:       true
+    siteKey:
+    secret:
+  allowedOrigins: ["derrickdiary.com"]
+  notifications:
+    # Enable notifications
+    enabled: true
+    # (!) ENCRYPTED
+    # Mailgun API key
+    apiKey:
+    # (!) ENCRYPTED
+    # Mailgun domain (encrypted)
+    domain:
+    fromAddress: "admin@derrickdiary.com"
