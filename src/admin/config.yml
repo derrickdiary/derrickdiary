@@ -6,7 +6,7 @@ media_library:
   name: uploadcare
   config:
     publicKey: f445c35ed91bf3a391ee
-    data-image-shrink: '600x400 95%'
+    imageShrink: '600x400 95%'
 
 display_url: https://derrickdiary.netlify.com
 
