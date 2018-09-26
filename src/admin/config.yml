@@ -29,69 +29,6 @@ collections:
       - {label: "Allow Pins", name: "pin-it", widget: "boolean", default: true, required: false}
       - {label: "Include Second Right Aside (CTA)", name: "right-aside-bottom", widget: "boolean", default: true, required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-  - label: "Sports"
-    name: "sports"
-    folder: "src/my_collections/_posts/sports"
-    sort: "date:desc"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
-      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: true, required: false}
-      - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
-      - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
-      - {label: "Featured Image", name: "image", widget: "string", required: false}
-      - {label: "Featured Image Alt Text", name: "image-alt", widget: "string", required: false}
-      - {label: "Share Image (resize for Facebook/Twitter Cards)", name: "share-image", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: categories, widget: "hidden", default: ["sports"], required: false}
-      - {label: "Tags", name: tags, widget: list, default: [""], required: false}
-    meta:
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
-  - label: "Features"
-    name: "features"
-    folder: "src/my_collections/_posts/features"
-    sort: "date:desc"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
-      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: true, required: false}
-      - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
-      - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
-      - {label: "Featured Image", name: "image", widget: "string", required: false}
-      - {label: "Featured Image Alt Text", name: "image-alt", widget: "string", required: false}
-      - {label: "Share Image (resize for Facebook/Twitter Cards)", name: "share-image", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: categories, widget: "hidden", default: ["features"], required: false}
-      - {label: "Tags", name: tags, widget: list, default: [""], required: false}
-    meta:
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
-  - label: "Art and Literature"
-    name: "art-and-literature"
-    folder: "src/my_collections/_posts/art-and-literature"
-    sort: "date:desc"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
-      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: true, required: false}
-      - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
-      - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
-      - {label: "Featured Image", name: "image", widget: "string", required: false}
-      - {label: "Featured Image Alt Text", name: "image-alt", widget: "string", required: false}
-      - {label: "Share Image (resize for Facebook/Twitter Cards)", name: "share-image", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: categories, widget: "hidden", default: ["art-and-literature"], required: false}
-      - {label: "Tags", name: tags, widget: list, default: [""], required: false}
-    meta:
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - label: "News"
     name: "news"
     folder: "src/my_collections/_posts/news"
@@ -112,9 +49,72 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
-      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: true}
-      - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
-      - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
+    meta:
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - label: "Features"
+    name: "features"
+    folder: "src/my_collections/_posts/features"
+    sort: "date:desc"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
+      - label: "Featured Image"
+        name: "featured-image"
+        widget: "image"
+        options:
+          media_library:
+            config:
+              publicKey: f445c35ed91bf3a391ee
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
+      - {label: "Tags", name: tags, widget: list, default: [""], required: false}
+    meta:
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - label: "Art and Literature"
+    name: "art-and-literature"
+    folder: "src/my_collections/_posts/art-and-literature"
+    sort: "date:desc"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
+      - label: "Featured Image"
+        name: "featured-image"
+        widget: "image"
+        options:
+          media_library:
+            config:
+              publicKey: f445c35ed91bf3a391ee
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
+      - {label: "Tags", name: tags, widget: list, default: [""], required: false}
+    meta:
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - label: "Sports"
+    name: "sports"
+    folder: "src/my_collections/_posts/sports"
+    sort: "date:desc"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
+      - label: "Featured Image"
+        name: "featured-image"
+        widget: "image"
+        options:
+          media_library:
+            config:
+              publicKey: f445c35ed91bf3a391ee
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
+      - {label: "Tags", name: tags, widget: list, default: [""], required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - label: "Opinions"
@@ -127,14 +127,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
-      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: true, required: false}
-      - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
-      - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
-      - {label: "Featured Image", name: "image", widget: "string", required: false}
-      - {label: "Featured Image Alt Text", name: "image-alt", widget: "string", required: false}
-      - {label: "Share Image (resize for Facebook/Twitter Cards)", name: "share-image", widget: "string", required: false}
+      - label: "Featured Image"
+        name: "featured-image"
+        widget: "image"
+        options:
+          media_library:
+            config:
+              publicKey: f445c35ed91bf3a391ee
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: categories, widget: "hidden", default: ["opinions"], required: false}
+      - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
