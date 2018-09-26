@@ -28,9 +28,9 @@ fav-icon:
 cloudinary-name: derrickdiary
 
 algolia:
-  application_id:
-  index_name:
-  search_only_api_key:
+  application_id: ICT1G6FKRJ
+  index_name: derrick-diary-index
+  search_only_api_key: 7091e57861f96eb520a891d78bc05311
 
 analytics:
   google: derrickdiary
