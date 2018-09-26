@@ -112,7 +112,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
-      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: "true", required: "true"}
+      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: true, required: true}
       - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
       - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
     meta:
