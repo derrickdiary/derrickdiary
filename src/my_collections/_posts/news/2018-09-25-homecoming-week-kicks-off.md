@@ -10,7 +10,11 @@ On your marks, get set, go—it is homecoming time! From Monday, September 24th 
 
 The daily “themed” clothing is the following: on Monday, September 24th, Oilers are asked to wear the best and comfortable beach attire, such as palm tree, floral, or pastel shirts, board shorts, etc.; Tuesday is the crowd favorite Twin Day, so be sure to coordinate a matching outfit with your bestie; Wednesday is a new theme (and an exciting one), Bohemian or Hippie day; Thursday is the traditional Toga Day for seniors (or yellow for underclassmen); and, Friday is Oiler Gear day. This year’s Homecoming theme is “We Got the Beat,” which is a tribute to a popular 80’s song by the Go Go’s. In case anyone is wondering how the dress themes were created, well, each day’s dress wear is inspired by a certain song. For example, Monday’s beach wear is inspired by “Surfin’ USA,” Tuesday by “You’ve Got a Friend,” Wednesday by “Bohemian Rhapsody,” Thursday by both “Come Together” and “Yellow Submarine,” and Friday by “We Are the Champions.”
 
-![](https://ucarecdn.com/882434d6-a79f-466d-903f-6c4276539f32~3/nth/0/,https://ucarecdn.com/882434d6-a79f-466d-903f-6c4276539f32~3/nth/1/,https://ucarecdn.com/882434d6-a79f-466d-903f-6c4276539f32~3/nth/2/)
+![](https://ucarecdn.com/aa948b8c-2496-4eb3-ab16-f523ca65fff5~1/nth/0/)
+
+![](https://ucarecdn.com/210494f9-9d23-4813-af67-b665a2bdd663~1/nth/0/)
+
+![](https://ucarecdn.com/fa30e377-5f83-46ab-9c84-ed530455ba24~1/nth/0/)
 
 Besides having fun creating your daily outfits, Oilers are reminded to vote for this year’s Homecoming King and Queen. There are five nominees to choose from for each gender. In the boys’ category, there are princes: Fernando Marquez, Charles Miller, Carlos Rodriguez, Jordan Romero, and Jacob Soto. As for the girls’ category, there are princesses: Beyonce Gomez, Jacqueline Hernandez, Kimberly Hernandez, Leticia Reyes, and Aracely Salazar. All students can cast a vote for king and queen in the Senior Park from Monday, September 24—Wednesday, September 26th during lunch. The winning king will be announced at the Spirit Spectacular Pep Rally on Friday and queen during halftime at the football game on Friday night at 7:00 pm. Besides seeing who will be crowned queen, students will enjoy the exciting rival match-up between the Oilers and Bell Gardens Lancers. Also, following the end of Spirit Spectacular will be the Homecoming carnival, so don’t forget to bring some extra money to buy some delicious food.
 
