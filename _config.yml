@@ -156,10 +156,9 @@ defaults:
       right-aside-top: true
       right-aside-bottom: true
       bottom-cta: true
-      pin-it: true
+      pin-it: false
       share: true
-      dropcap: true
-      download: true
+      download: false
       download-file:
       lead-id:
   -

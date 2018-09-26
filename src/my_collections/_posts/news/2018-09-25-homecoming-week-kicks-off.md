@@ -2,7 +2,6 @@
 title: 2018 Homecoming Week kicks off!
 date: 2018-09-26T15:28:29.030Z
 featured-image: 'https://ucarecdn.com/5b218195-ea78-41be-a952-ec1f5a1f0eaf/'
-share: false
 ---
 On your marks, get set, go—it is homecoming time! From Monday, September 24th to Friday, September 28th, MHS Oilers will be encouraged to show their school pride by dressing in the daily themed wear, attend the lunch rallies, and more!
 
