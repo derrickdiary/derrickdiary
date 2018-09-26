@@ -2,6 +2,8 @@
 title: ​Separation of families
 authors:
   - Janely Aragon
+tags:
+  - politics
 ---
 With the presidency of Donald Trump, there has been an increase in tension regarding immigration policies. It is widely acknowledged that President Trump dos not want immigrants in the Unites States. Policies against immigrants began after Trump prevented Muslims seeking refuge, from entering the country. President Trump’s intolerance for immigrants was even more evident after he shared his intentions to end DACA—an immigration policy that allows some individuals who were brought into the U.S. illegally as children to receive renewable deferred action from deportation.
 

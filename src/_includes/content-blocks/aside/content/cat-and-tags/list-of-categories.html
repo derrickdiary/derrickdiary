@@ -13,7 +13,7 @@
 
     {% assign sorted_tags = site.tags | sort %}
     {% for tag in sorted_tags %}
-    {% assign zz = tag[1] | where: "categories", "sports" | sort %}
+    {% assign zz = tag[1] | where: "categories", categoryName | sort %}
     {% if zz != empty %}
     <li><a class="italic" href="/category/{{ tag[0] | slugify }}/">{{ tag[0] | markdownify | replace:'-', ' ' | replace:'</p>', '' }}
     </a></li>

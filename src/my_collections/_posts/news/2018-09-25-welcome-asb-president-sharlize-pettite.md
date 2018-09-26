@@ -2,6 +2,8 @@
 title: Welcome, ASB President Sharlize Pettite!
 authors:
   - Angel Mendoza
+tags:
+  - ASB
 ---
 ​It is time to welcome ASB President for the 2018-2019 school year, Miss Sharlize Pettite. Pettite is replacing graduating ASB President, Selina Duran, and is looking forward to her new tasks.
 
