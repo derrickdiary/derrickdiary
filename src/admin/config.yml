@@ -23,13 +23,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Display Title", name: "display-title", widget: "boolean", default: true, required: false}
-      - {label: "Featured Image", name: "image", widget: "string", required: false}
       - {label: "Permalink ( /page-url-name/ )", name: "permalink", widget: "string", required: false}
-      - {label: "Add Social Share Links", name: "share", widget: "boolean", default: false, required: false}
-      - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true, required: false}
-      - {label: "Include First Right Aside", name: "right-aside-top", widget: "boolean", default: true, required: false}
-      - {label: "Allow Pins", name: "pin-it", widget: "boolean", default: true, required: false}
-      - {label: "Include Second Right Aside (CTA)", name: "right-aside-bottom", widget: "boolean", default: true, required: false}
+      - label: "Featured Image"
+        name: "featured-image"
+        widget: "image"
+        required: false
+        options:
+          media_library:
+            config:
+              publicKey: f445c35ed91bf3a391ee
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - label: "News"
     name: "news"
