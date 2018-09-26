@@ -2,7 +2,7 @@
   // font-family: $sans-serif;
   // font-weight: $bold-weight;
   text-transform: none;
-  color: $black;
+  color: $yellow;
   font-family: $condensed-sans-serif;
   font-weight: $condensed-weight;
 }
@@ -11,16 +11,24 @@
   z-index: 500 !important;
 }
 
+
 .uk-container-expand {
     background: transparent;
 }
 
-.nav {
-  background: $background-color;
+.nav-wrap, .nav {
+    background: $dark-blue;
 }
+
 
 .uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
   font-size: 1.5rem;
+}
+
+.uk-navbar-item, .uk-navbar-nav>li>a {
+  &:hover {
+    color: $light-yellow;
+  }
 }
 
 .uk-navbar-nav>.uk-navbar-item>a {
@@ -30,18 +38,25 @@
 
 
 .nav-logo:hover {
-    color: #666;
+    color: $light-yellow;
 }
 
 .logo-wrap {
   float: right;
-  font-family: $sans-serif;
-  // font-size: 1.25em;
 }
 
 .uk-navbar .uk-icon {
   position: relative;
   top: 3px;
+  color: $yellow;
+}
+
+.uk-navbar .uk-button {
+  border: 1px solid $yellow;
+}
+
+.uk-navbar .uk-subnav-divider>:nth-child(n+2):not(.uk-first-column)::before {
+  border-left: 1px solid $yellow;
 }
 
 .call {
@@ -56,13 +71,16 @@
 }
 
 .nav-logo, .nav-logo-mini {
-  font-family: $sans-serif;
+  font-family: $condensed-sans-serif;
   text-transform: uppercase;
   color: $black;
 }
 .nav-logo {
   // font-size: .8em;
   position: relative;
+  color: $yellow;
+  font-size: 1.3em;
+font-weight: 500;
   // left: 18px;
   // padding-bottom: 2px;
 }
@@ -147,11 +165,11 @@
 .uk-navbar-item, .uk-navbar-dropdown-nav {
   font-family: $sans-serif;
   font-size: 1em;
-  color: $black;
+  color: $yellow;
 }
 
 .uk-navbar-dropdown-nav>li>a {
-  color: black;
+  color: $yellow;
 }
 .fa-angle-down {
   left: -3px;
