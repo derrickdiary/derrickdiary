@@ -2,20 +2,7 @@
   <div>
     {% if page.blog or page.auto-page or page.pagination %}
       {% include content-blocks/main/post-lists/pagination-list.html %}
-    {% elsif page.featured-image %}
-      <img class="uk-margin-medium-bottom" src="{{ page.featured-image }}" alt="{{ page.featured-image-alt }}" />
-      {% if page.display-title == true %}
-        <p class="uk-h1">
-          {{ page.title }}
-        </p>
-      {% endif %}
-    {{ content }}
     {% else %}
-      {% if page.display-title == true %}
-      <p class="uk-h1">
-        {{ page.title }}
-      </p>
-      {% endif %}
       {{ content }}
     {% endif %}
 
