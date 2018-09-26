@@ -1,7 +1,7 @@
   <li class="uk-margin-remove-top">
     <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">
-      {% if post.image %}
-      {% assign img = post.image %}
+      {% if post.featured-image %}
+      {% assign img = post.featured-image %}
       {% include content-blocks/main/image.html image=img %}
       {% endif %}
       <h3 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom">
