@@ -5,7 +5,7 @@ date: 2018-09-26T07:00:00.000Z
 authors:
   - ''
 tags:
-  - club
+  - clubs
 ---
 Mission Nutrition is a campus club that actually promotes healthy eating and encourages students to stay away from what is considered junk food. Unlike other clubs, the Mission Nutrition club actually feeds its members as part of the club’s purpose. What better way to learn about new foods than to try some personally? This is a great alternative for those who don’t like cafeteria food, who do not bring their own lunch, can’t afford to buy anything for lunch, and also for those who may have otherwise not eaten a lunch.
 

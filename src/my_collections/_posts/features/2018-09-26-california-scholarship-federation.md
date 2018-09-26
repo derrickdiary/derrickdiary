@@ -5,7 +5,7 @@ date: 2018-09-26T07:00:00.000Z
 authors:
   - ''
 tags:
-  - club
+  - clubs
 ---
 California Scholarship Federation (CSF) is a student club for students who have an academically strong grade point average and the goal to attend college. However, CSF is not just about promoting academics and college readiness.
 

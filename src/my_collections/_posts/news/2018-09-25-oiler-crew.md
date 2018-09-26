@@ -6,7 +6,7 @@ featured-image:
 authors:
   - Janely Aragon
 tags:
-  - club
+  - clubs
 ---
 There is a new program at Montebello High School, Oiler Crew, that is designed to benefit freshmen. This program is new to MHS and Ms. Rego was happy to provide more information about it. She showed enthusiasm for the students who are part of the Oiler Crew and with the contribution and support of other teachers, this program will reach its full potential and make a great impact on the MHS campus.
 

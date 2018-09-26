@@ -5,7 +5,7 @@ date: 2018-09-26T07:00:00.000Z
 authors:
   - ''
 tags:
-  - club
+  - clubs
 ---
 Key Club International club is where members can serve their community alongside adults and make new friends. Key Club’s purpose is to give to those in need. At Key Club, officers find community events for its members to offer help to throughout the year. Each member’s community service hours are accounted for as well.
 

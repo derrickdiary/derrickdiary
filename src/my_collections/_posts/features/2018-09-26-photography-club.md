@@ -5,7 +5,7 @@ date: 2018-09-26T07:00:00.000Z
 authors:
   - ''
 tags:
-  - club
+  - clubs
 ---
 Photography is a form of expression and a stress reliever for many as well. Although this does not apply to every person, Photography Club serves as a place where students can express inner feelings or tell a story by capturing moments that mean something special through a camera lens.
 
