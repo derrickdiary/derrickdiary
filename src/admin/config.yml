@@ -54,7 +54,7 @@ collections:
       - label: "Author"
         name: "author"
         widget: "relation"
-        collection: "src/my_collections/_authors"
+        collection: "src/my_collections/_authors/"
         searchFields: ["title"]
         valueField: "title"
       - {label: "Body", name: "body", widget: "markdown"}
