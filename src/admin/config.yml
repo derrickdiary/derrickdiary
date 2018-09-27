@@ -51,12 +51,7 @@ collections:
           media_library:
             config:
               publicKey: f445c35ed91bf3a391ee
-      - label: "Author"
-        name: "author"
-        widget: "relation"
-        collection: "src/my_collections/_authors/"
-        searchFields: ["title"]
-        valueField: "title"
+      - {label: "Authors", name: authors, widget: "list", default: [""], required: true}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
@@ -158,20 +153,3 @@ collections:
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
-  - label: "Authors"
-    name: "authors"
-    folder: "src/my_collections/_authors"
-    sort: "date:desc"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Name", name: "title", widget: "string"}
-      - label: "Author Photo"
-        name: "photo"
-        widget: "image"
-        required: false
-        options:
-          media_library:
-            config:
-              publicKey: f445c35ed91bf3a391ee
-      - {label: "Publish Date", name: "date", widget: "hidden"}
