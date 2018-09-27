@@ -51,7 +51,12 @@ collections:
           media_library:
             config:
               publicKey: f445c35ed91bf3a391ee
-      - {label: "Authors", name: authors, widget: "list", default: [""], required: true}
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: ["title"]
+        valueField: "title"
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: categories, widget: "hidden", default: ["news"], required: false}
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
