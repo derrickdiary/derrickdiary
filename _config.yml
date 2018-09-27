@@ -110,6 +110,8 @@ collections:
     output: false
   comments:
     output: false
+  authors:
+    output: false
 
 defaults:
   -

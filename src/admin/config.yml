@@ -153,3 +153,19 @@ collections:
       - {label: "Tags", name: tags, widget: list, default: [""], required: false}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - label: "Authors"
+    name: "authors"
+    folder: "src/my_collections/_authors"
+    sort: "date:desc"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - label: "Author Photo"
+        name: "photo"
+        widget: "image"
+        required: false
+        options:
+          media_library:
+            config:
+              publicKey: f445c35ed91bf3a391ee
+      - {label: "Publish Date", name: "date", widget: "hidden"}
