@@ -1,5 +1,6 @@
 ---
 title: About
+display-title: false
 permalink: /about/
 ---
 # Our School
