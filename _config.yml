@@ -37,7 +37,8 @@ analytics:
   momently:
   hotjar:
 
-addthis.id: ra-5baa6e3ca611f947
+add-this-share-id: ra-5baa6e3ca611f947
+
 
 reCaptcha:
   siteKey:
