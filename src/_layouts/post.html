@@ -7,7 +7,7 @@ layout: default
   <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
   <header class="post-header uk-text-center">
     {% include content-blocks/main/image.html image=featured-image %}
-    <h1 class="uk-h1 {% if page.featured-image %} uk-margin-medium-top {% endif %} uk-margin-remove-bottom" itemprop="name headline">
+    <h1 class="uk-h1 font-weight-600 {% if page.featured-image %} uk-margin-medium-top {% endif %} uk-margin-remove-bottom" itemprop="name headline">
 {% if page.tags contains "tarot" %}
     {{ page.title | truncate: 25, "" | markdownify | markdownify | replace: '<p>', '' | replace: '</p>', '' | widont }}
 {% else %}

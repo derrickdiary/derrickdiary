@@ -1,5 +1,6 @@
 <section class="clearfix">
   <h3 class="uk-h4 visuallyhidden">Meet The Author</h3>
-  {% include content-blocks/cta/lead/author-photo.html %}
+  {% include content-blocks/main/image.html image="cbtelemann-portrait.png" alt="C.B. Telemann portrait" class="headshot uk-align-center" pin="false" %}
+
 <p class="bio{% if include.large == true %}large-bio-text{% endif %}">{{ site.author.bio | markdownify | remove: '<p>' | remove: '</p>' }}</p>
 </section>

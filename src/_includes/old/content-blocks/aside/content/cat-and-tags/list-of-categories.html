@@ -1,0 +1,24 @@
+<section>
+  <h3 class="uk-text-center uk-margin-small uk-h4"><i class="far fa-folder-open"></i>&nbspDiscover More
+
+      {% if page.categories %}
+      {% assign categoryName = page.categories[0]  %}
+      {{ categoryName | capitalize }}
+      {% elsif page.pagination.category %}
+      {% assign categoryName = page.pagination.category  %}
+      {{ categoryName | capitalize  }}
+      {% endif %}
+  </h3>
+  <ul class="uk-subnav categories uk-margin-remove" uk-margin>
+
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
+    {% assign zz = tag[1] | where: "categories", categoryName | sort %}
+    {% if zz != empty %}
+    <li><a class="italic" href="/category/{{ tag[0] | slugify }}/">{{ tag[0] | markdownify | replace:'-', ' ' | replace:'</p>', '' }}
+    </a></li>
+     {% endif %}
+
+     {% endfor %}
+  </ul>
+</section>

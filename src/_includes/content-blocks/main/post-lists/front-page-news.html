@@ -1,0 +1,20 @@
+<div class="uk-child-width-1-2@s uk-child-width-1-3@m front-page" uk-grid="masonry: true">
+
+  {% for post in paginator.posts %}
+
+  <div>
+      <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">
+        {% if post.featured-image %}
+        {% assign img = post.featured-image %}
+        {% include content-blocks/main/image.html image=img %}
+        {% endif %}
+        <h3 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom condensed small-heading font-weight-500 ">
+          {{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', '' | widont }}
+        </h3>
+<hr class="uk-divider-small uk-text-center" />
+        <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}</p>
+        <button class="button-in-text uk-button uk-button-default uk-align-center"uk-icon="icon: arrow-right">Read More&ensp;</button>
+        </a>
+  </div>
+  {% endfor %}
+</div>

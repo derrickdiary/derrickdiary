@@ -1,0 +1,37 @@
+  <li class="uk-margin-remove-top">
+    <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">
+      {% if post.featured-image %}
+      {% assign img = post.featured-image %}
+      {% include content-blocks/main/image.html image=img %}
+      {% endif %}
+      <h3 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom">
+        {% if post.tags contains "tarot" %}
+            {{ post.title | truncate: 25, "" | markdownify | markdownify | replace: '<p>', '' | replace: '</p>', '' | widont }}
+        {% else %}
+        {{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+{% endif %}
+      </h3>
+      <hr class="uk-divider-small uk-text-center" />
+      <p class="post-meta">
+          <i>by</i>
+          
+          {% if post.authors %}
+          {% for author in post.authors %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }}</span></span>
+          {% if forloop.last == false %}
+          and
+          {% endif %}
+          {% endfor %}
+          {% else %}
+          Staff
+          {% endif %}
+        <i>on</i> <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </p>
+      <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}</p>
+      <button class="button-in-text uk-button uk-button-default uk-align-center"uk-icon="icon: arrow-right">Read More&ensp;</button>
+      </a>
+      {% if forloop.last == true %}
+{% else %}
+    <hr />
+{% endif %}
+  </li>

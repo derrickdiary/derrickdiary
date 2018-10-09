@@ -4,7 +4,7 @@ date: 2018-09-26T18:31:08.062Z
 featured-image:
   - 'https://ucarecdn.com/6143384c-d28d-41a8-8cb9-c0fcd55f8d67~1/nth/0/'
 authors:
-  - Staff Editorial
+  - Staff
 ---
 Ah yes, the time has come. There will be no more sleeping for several hours straight, no more binge watching on Netflix, and no more going to the beach. Get new clothes, pack your backpacks, and drink a bunch of coffee; it’s a necessity for a high school student… it’s back to school.
 

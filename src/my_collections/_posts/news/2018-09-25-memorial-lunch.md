@@ -4,7 +4,7 @@ date: 2018-09-26T18:30:08.837Z
 featured-image:
   - 'https://ucarecdn.com/b86f2a76-01c8-463e-b058-a655d7a0a725~1/nth/0/'
 authors:
-  - Staff Editorial
+  - Staff
 ---
 On September 11, 2018 in the MHS courtyard during lunch time, hundreds of students attended a memorial honoring the almost 3,000 innocent people whose lives ended too soon on September 11, 2001. Although students were not old enough to know what it was like to live the horrors of that day, their sadness for the families who lost loved ones could be felt around campus.
 

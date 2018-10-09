@@ -1,0 +1,33 @@
+{% if include.image %}
+{% assign image = include.image %}
+{% endif %}
+
+{% if include.alt %}
+{% assign alt = include.alt %}
+{% endif %}
+
+{% if include.class %}
+{% assign class = include.class %}
+{% endif %}
+
+{% if include.pin %}
+{% assign pin = include.pin %}
+{% else %}
+{% assign pin = true %}
+{% endif %}
+
+{% if page.pin-it %}
+{% if pin == true %}
+{% include content-blocks/main/social/pin-it-wrap-top.html %}
+{% endif %}
+{% endif %}
+
+<img class="{{ class }}" itemprop="image"
+src="{{ image }}"
+ alt="{{ alt }}"uk-img />
+
+{% if page.pin-it %}
+{% if pin == true %}
+{% include content-blocks/main/social/pin-it-wrap-bottom.html %}
+{% endif %}
+{% endif %}

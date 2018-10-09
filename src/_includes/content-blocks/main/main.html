@@ -1,13 +1,32 @@
-<main class="uk-width-3-5@l uk-width-3-5@m uk-width-3-5@s">
-  <div>
-    {% if page.blog or page.auto-page or page.pagination %}
+{% if include.full-width %}
+{% assign full-width = include.full-width %}
+{% endif %}
+<main class="
+{% if full-width %}
+uk-width-1-1@l uk-width-1-1@m uk-width-1-1@s
+{% else %}
+uk-width-2-3@l uk-width-3-5@m uk-width-3-5@s
+{% endif %}">
+{% if page.homepage %}
+
+{% include content-blocks/main/post-lists/front-page-news.html %}
+
+{% elsif page.blog or page.auto-page or page.pagination %}
       {% include content-blocks/main/post-lists/pagination-list.html %}
+    {% elsif page.image %}
+      <img class="uk-margin-medium-bottom" src="{{ page.image }}" alt="{{ page.image-alt }}" />
+      {% if page.display-title == true %}
+        <p class="uk-h1">
+          {{ page.title }}
+        </p>
+      {% endif %}
+    {{ content }}
     {% else %}
+      {% if page.display-title == true %}
+      <p class="uk-h1">
+        {{ page.title }}
+      </p>
+      {% endif %}
       {{ content }}
     {% endif %}
-
-    {% if page.is-post or page.is-book %}
-        {% include content-blocks/cta/cta-and-lead.html %}
-      {% endif %}
-  </div>
 </main>

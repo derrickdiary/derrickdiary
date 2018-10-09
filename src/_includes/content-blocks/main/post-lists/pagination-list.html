@@ -1,16 +1,17 @@
 {% if page.auto-page %}
-<p class="uk-h2 uk-margin-remove small">Filed Under</p>
-<p class="uk-h1">{{ page.autopages.display_name }}</p>
+<p class="uk-h2 uk-text-center uk-margin-remove small">Filed Under</p>
+<p class="uk-h1 uk-text-center font-weight-600">{{ page.autopages.display_name }}</p>
 <hr class="uk-margin-bottom"/>
 {% endif %}
-
 <ul class="uk-list all-posts">
-  {% if page.pagination.category %}
-  <h2 class="uk-h2 visuallyhidden">
-    {{ page.title }}
+  <h2 class="visuallyhidden">
+{{ page.pagination.category | capitalize }}
   </h2>
-  {% endif %}
   {% for post in paginator.posts %}
+    {% if page.nav-text == "Calendars" %}
+    {% include content-blocks/main/post-lists/list-of-all-calendars.html %}
+    {% else  %}
     {% include content-blocks/main/post-lists/list-of-all-posts.html %}
+    {% endif %}
   {% endfor %}
 </ul>

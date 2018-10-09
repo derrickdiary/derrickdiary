@@ -1,0 +1,28 @@
+{% if page.homepage %}
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+{% endif %}
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.36/js/uikit-icons.min.js"></script>
+
+<link async defer rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '{{ site.analytics.google }}';
+</script>
+
+{% if page.share %}
+<script async defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.add-this-share-id }}"></script>
+{% endif %}

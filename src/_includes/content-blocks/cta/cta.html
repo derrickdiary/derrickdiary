@@ -1,0 +1,24 @@
+{% if page.is-post %}
+{% if include.full-width %}
+{% assign full-width = include.full-width %}
+{% endif %}
+<section class="
+{% if full-width %}
+uk-width-1-1@l uk-width-1-1@m uk-width-1-1@s
+{% else %}
+uk-width-2-3@l uk-width-3-5@m uk-width-3-5@s
+{% endif %}">
+  <div class="main-paper">
+    {% if page.comments == true %}
+    <section>
+      {% include content-blocks/user-content/comments/list-of-comments.html %}
+    </section>
+    {% endif %}
+    {% if page.is-post == true %}
+    <section class="{% if page.lead-id == nil and page.comments == false %} {% else %} uk-hidden@l {% endif %}">
+      {% include content-blocks/main/post-lists/related-posts.html %}
+    </section>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

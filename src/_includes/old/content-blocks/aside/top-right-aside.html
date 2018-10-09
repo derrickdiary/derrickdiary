@@ -1,0 +1,14 @@
+{% unless page.right-aside-top == false %}
+<aside class="right-aside-top uk-width-2-5@l uk-width-2-5@m  uk-width-2-5@s content uk-flex uk-flex-between uk-flex-column uk-margin-xlarge-bottom@m">
+  <hr class="uk-hidden@s" />
+  <div style="z-index:1;" uk-sticky="offset: 150;bottom: true; media:640; show-on-up: true; animation: uk-animation-slide-top;">
+    <h1 class="visuallyhidden">Top Aside</h1>
+    <div>
+      {% if page.is-post or page.auto-page or page.pagination.category %}
+      {% include content-blocks/aside/content/cat-and-tags/list-of-categories.html %}
+      {% endif %}
+      {% include content-blocks/aside/content/down-arrow.html %}
+    </div>
+  </div>
+</aside>
+{% endunless %}

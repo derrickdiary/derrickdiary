@@ -1,0 +1,10 @@
+<div class="uk-width-1-1@s uk-width-1-6@m uk-width-1-6@l uk-flex-first@l uk-visible@l left-aside">
+  {% unless page.left-aside == false %}
+  <div class="sidebar no-smooth envelope" style="z-index:80;" uk-sticky="offset: 150; media:960; show-on-up: true; animation: uk-animation-slide-top;">
+    <a class="seal red-seal" href="#subscribe" uk-toggle>
+        <span class="embossed"><i class="seal-symbol fas fa-dove"></i></span>
+    </a>
+  {% include content-blocks/cta/subscribe-form-popup.html %}
+        </div>
+          {% endunless %}
+    </div>

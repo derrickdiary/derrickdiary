@@ -1,0 +1,13 @@
+<main class="uk-width-3-5@l uk-width-3-5@m uk-width-3-5@s">
+  <div>
+    {% if page.blog or page.auto-page or page.pagination %}
+      {% include content-blocks/main/post-lists/pagination-list.html %}
+    {% else %}
+      {{ content }}
+    {% endif %}
+
+    {% if page.is-post or page.is-book %}
+        {% include content-blocks/cta/cta-and-lead.html %}
+      {% endif %}
+  </div>
+</main>

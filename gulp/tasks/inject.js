@@ -2,9 +2,9 @@
 const gulp = require('gulp');
 const inject = require('gulp-inject');
 
-var transform = function (filepath, file, i, length) {
-    return '<script src="' + filepath + '" async defer></script>';
-}
+// var transform = function (filepath, file, i, length) {
+//     return '<script src="' + filepath + '" async defer></script>';
+// }
 
 // 'gulp inject:head' -- injects our style.css file into the head of our HTML
 gulp.task('inject:head', () =>
@@ -15,8 +15,9 @@ gulp.task('inject:head', () =>
 );
 
 // 'gulp inject:footer' -- injects our index.js file into the end of our HTML
+//, {ignorePath: '.tmp', transform: transform}))
 gulp.task('inject:footer', () =>
   gulp.src('.tmp/src/_layouts/default.html')
-    .pipe(inject(gulp.src('.tmp/assets/javascript/*.js'), {ignorePath: '.tmp', transform: transform}))
+    .pipe(inject(gulp.src('.tmp/assets/javascript/*.js'), {ignorePath: '.tmp'}))
     .pipe(gulp.dest('.tmp/src/_layouts'))
 );
