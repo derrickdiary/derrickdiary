@@ -1,6 +1,7 @@
+{% include content-blocks/main/post-lists/featured-slideshow.html %}
 <div class="uk-child-width-1-2@s uk-child-width-1-3@m front-page" uk-grid="masonry: true">
 
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts offset: 3 %}
 
   <div>
       <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">

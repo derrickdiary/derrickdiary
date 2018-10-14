@@ -1,0 +1,22 @@
+<div class="uk-position-relative uk-margin-large-bottom uk-visible-toggle" uk-slideshow="animation: fade;autoplay: true">
+<ul class="uk-slideshow-items">
+{% for post in site.posts limit: 3 %}
+        <li>
+            <img src="{{ post.featured-image }}" alt="" uk-cover>
+            <div class="uk-overlay uk-overlay-default uk-position-bottom-center uk-position-small">
+              <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">
+                <h2 class="uk-margin-remove">{{ post.title }}</h2>
+                <p class="uk-margin-remove uk-visible@l">{{ post.content | strip_html | truncatewords: 15 }} Read More</p>
+                  </a>
+            </div>
+
+        </li>
+        {% endfor %}
+    </ul>
+
+    <div class="uk-light">
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    </div>
+
+</div>
