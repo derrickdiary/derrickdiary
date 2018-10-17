@@ -9,7 +9,11 @@
         {% assign img = post.featured-image %}
         {% include content-blocks/main/image.html image=img %}
         {% endif %}
-        <h3 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom condensed small-heading font-weight-500 ">
+        <h3 class="uk-h1
+        {% if post.featured-image == nil %}
+        {% else %}
+        uk-margin-medium-top
+        {% endif %} uk-margin-remove-bottom condensed small-heading font-weight-500 ">
           {{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', '' | widont }}
         </h3>
 <hr class="uk-divider-small uk-text-center" />
