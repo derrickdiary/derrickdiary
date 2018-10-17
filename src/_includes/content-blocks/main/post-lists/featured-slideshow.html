@@ -6,7 +6,7 @@
             <div class="uk-overlay uk-overlay-default uk-position-bottom-center uk-position-small">
               <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">
                 <h2 class="uk-margin-remove">{{ post.title }}</h2>
-                <p class="uk-margin-remove uk-visible@l">{{ post.content | strip_html | truncatewords: 15 }} Read More</p>
+                <p class="uk-margin-remove uk-visible@l">{{ post.content | strip_html | truncatewords: 15 | widont }} Read More</p>
                   </a>
             </div>
 
